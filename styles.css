@@ -1,0 +1,591 @@
+.meniu {
+  /* background-color: transparent; */
+  height: 11em;
+  /* width: 100vw; */
+  background-color: mintcream;
+  color: #003400 !important;
+  text-decoration: none;
+}
+.menu-hover:hover {
+  color: aquamarine;
+}
+.navmenu {
+  background-image: url("./imagini/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+.frame {
+  height: 100vh;
+  width: 100vw;
+}
+.undercover {
+  background-image: url("./imagini/pisici.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  background-position: center;
+}
+a.lista-meniu {
+  /* color: darkgreen; */
+  text-align: center;
+  color: #003400 !important;
+
+  text-decoration: none;
+  display: inline-block;
+  font-family: Value-Serif-Bold, Halant, Vollkorn, Georgia, sans-serif;
+}
+
+.meniu-show-inline {
+  /* position: absolute; */
+  top: 8px;
+  left: 80px;
+}
+.logo {
+  width: 9em;
+  height: 7em;
+  float: left;
+}
+.meniu-principal {
+  text-decoration: none;
+  /* color: darkgreen; */
+  text-align: center;
+  font-family: Value-Serif-Bold, Halant, Vollkorn, Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+  color: #fbebce !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0;
+  font-weight: 400;
+  align-items: center;
+}
+
+.meniu-secundar:hover {
+  background-color: lightblue;
+  color: white;
+}
+.lista-meniu-principal {
+  text-align: center;
+  color: maroon !important;
+
+  text-decoration: none;
+  display: inline-block;
+  font-family: Value-Serif-Bold, Halant, Vollkorn, Georgia, sans-serif;
+}
+.full-box {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.plant-finder-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.plant-finder-choose-options {
+  margin-top: -7%;
+}
+.titlu_pag_cat {
+  font-size: 60px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* min-width: 500px; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.imagine-dropdown {
+  padding: 12px 16px;
+  text-decoration: none;
+  /* display: block; */
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.container-mare-cat {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.categorii {
+  font-weight: bold;
+}
+.subcategorii {
+  padding-left: 20px;
+}
+.link-categorii {
+  text-decoration: none;
+  color: black;
+}
+.imagini-animale {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+.container-mare-anim {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.tipuri-animale {
+  text-align: center;
+  font-size: 18px;
+}
+.descriere {
+  text-align: justify;
+  right: 50px;
+  left: 50px;
+}
+.buton-adaugare-cos {
+  background-color: teal;
+}
+.inregistrare_form {
+  height: 600px;
+  width: 500px;
+  margin: auto;
+}
+.titlu_info_cont_inregistrare {
+  text-align: center;
+  bottom: 10px;
+}
+.inregistrare_deja_un_cont {
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  padding: 14px 0 16px 0;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+.buton_login {
+  margin: 10px;
+  position: absolute;
+  top: 40%;
+  margin-left: 40%;
+  margin-right: 50%;
+  text-decoration: none;
+  color: black;
+  /* background-color: tan; */
+  background-color: #52b788 !important;
+  width: 70px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+.titlu_ai_deja_cont {
+  top: 20%;
+  text-align: center;
+  text-decoration: wavy;
+}
+.send-buton {
+  margin: 10px;
+  top: 40%;
+  margin-left: 43%;
+  margin-right: 50%;
+  text-decoration: none;
+  color: black;
+  background-color: #52b788 !important;
+  /* background-color: #003400!important; */
+  width: 70px;
+  height: 30px;
+  font-weight: bold;
+  align-items: center;
+  /* position: absolute; */
+  /* margin: auto; */
+  text-align: center;
+  border-radius: 5px;
+}
+.buton_inregistreaza-te {
+  margin: 10px;
+  position: absolute;
+  top: 40%;
+  margin-left: 26%;
+  margin-right: 50%;
+  text-decoration: none;
+  color: black;
+  background-color: #52b788 !important ;
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+.promotion {
+  line-height: 18px;
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  background-color: #d90404;
+  left: 0;
+  /* height: 24px; */
+  /* width: auto; */
+  width: 55px;
+  height: 55px;
+  -webkit-border-radius: 51%;
+  -moz-border-radius: 51%;
+  border-radius: 51%;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 7px 0;
+  font-weight: 700;
+  /* border-radius: 4px; */
+  left: 0px;
+  /* margin: 5px; */
+  /* Modify left value to adjust discount tag according to your e-commerce design */
+  top: 5px;
+  /* Modify Top value to adjust discount tag according to your e-commerce design */
+}
+.pret-anterior {
+  display: block;
+  padding: -100px 0;
+  text-decoration: line-through;
+  font-size: 14px;
+  text-align: center;
+}
+.pret-cu-discount {
+  text-align: center;
+  color: red;
+  padding: -100px 0;
+  /* padding: 2px -2px; */
+  font-weight: 600;
+  font-size: 18px;
+}
+.buton-adaugare-cos-promotii {
+  background-color: teal;
+}
+.pret-prod-prom {
+  height: 50px;
+}
+.meniu_client_accordion {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.schimbare_parola_cont {
+  text-align: center;
+  font-size: 17px;
+}
+.buton_parola_send {
+  margin: 10px;
+  /* position: absolute; */
+  top: 40%;
+  margin-left: 45.5%;
+  margin-right: 50%;
+
+  width: 140px;
+  height: 30px;
+  /* font-weight: bold; */
+  text-align: center;
+  /* border-radius: 1px; */
+}
+.titlu_pag_detalii {
+  text-align: center;
+}
+.container_produse_cos {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.butoane-admin-index {
+  margin: 10px;
+  /* position: absolute; */
+  top: 40%;
+
+  font-size: 22px;
+  width: 90%;
+  height: 50px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+.titlu_admin {
+  font-size: 43px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.text_conturi {
+  text-align: center;
+}
+.butoane_modificare_admin_cont_centered {
+  margin-left: 41%;
+
+  width: 17%;
+}
+.container-mare {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container-inclus {
+  padding: 20px;
+}
+.container-stoc {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+}
+.page_interior {
+  margin-left: 12%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1300px;
+}
+.center {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.month {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  width: 105px;
+}
+.calendar-data {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  width: 105px;
+  height: 90px;
+}
+.shopping_list_plants {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  width: 500px;
+  height: 50px;
+}
+.shopping_list_qty {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  width: 150px;
+  height: 50px;
+}
+.container_chart {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.checkbox_calendar_data {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  content: "X";
+}
+.checkbox_calendar_data:checked:after {
+  /* content: "X"; */
+}
+.titlu_graph {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.column-for-display {
+  border: 1px solid #ddd;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+.column-create-col {
+  border: 1px solid #ddd;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+.small-columns-for-comparing {
+  margin: 20px;
+  background: transparent;
+}
+.card-plant {
+  margin: 30px;
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+.register_form {
+  margin: 0 auto;
+  background-image: url("./imagini/sakura10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  color: #3cba92; /* Changed to white for better contrast */
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0); */
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.register_form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.1); Semi-transparent black overlay */
+  border-radius: 8px; /* Match the border-radius of the form */
+  z-index: 0; /* Ensure it sits behind the text */
+}
+
+.register_form * {
+  position: relative;
+  z-index: 1; /* Ensure text and form elements sit above the overlay */
+}
+
+.register_form .form-control-plant {
+  background-color: rgba(144, 238, 144, 0.7); /* Lighten the input background */
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.register_form label {
+  color: black; /* Label color for better visibility */
+}
+
+.register_form .btn-primary {
+  background-color: #52b788;
+  border: none;
+}
+
+.register_form .btn-primary:hover {
+  background-color: #3a7f5a;
+}
+.form-control-plant {
+  width: 150px;
+  margin-left: 15%;
+  opacity: 0.7;
+}
+.btn-register {
+  margin-left: 20%;
+  background-image: linear-gradient(
+    to right,
+    #0ba360 0%,
+    #3cba92 51%,
+    #0ba360 100%
+  );
+}
+.form-plant-register {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.control-label-plant {
+  margin-left: -15%;
+}
+/* .modal-backdrop {
+  z-index: -1;
+} */
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
