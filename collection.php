@@ -288,7 +288,6 @@ if (isset($_POST['planting_place']) && $_POST['planting_place'] == "new_collecti
 
         while ($row = mysqli_fetch_array($resultbun)) {
             $id = $row['plant_id'];
-            // $apiUrl = "https://trefle.io/api/v1/species/" . $id . "?token=Vy051Qi6ZyqmkINehigaDTrMmdmq_qIXh3b652mdL60";
             // // echo "API URL: $apiUrl<br>";
             // $contextOptions = array(
             //     "ssl" => array(
